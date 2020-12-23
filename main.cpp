@@ -17,6 +17,7 @@
  Le testeur ne DOIT PAS déterminer si le projet est vrai ou faux -- il se peut que le testeur ne soit pas parfait
  */
 
+#include <vector>
 #include "Tester_Include.hpp"
 
 // Mettre ici les headers de vos containers
@@ -37,6 +38,7 @@ int main()
 	exec_test_vector<ft::vector<int> >();
 	exec_test_queue<ft::queue<int> >();
 	exec_test_stack<ft::stack<int> >();
+
 	/*
 	 * Ne pas toucher à cette ligne
 	 */
