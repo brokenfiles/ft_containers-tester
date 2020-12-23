@@ -17,7 +17,6 @@
  Le testeur ne DOIT PAS déterminer si le projet est vrai ou faux -- il se peut que le testeur ne soit pas parfait
  */
 
-#include <vector>
 #include "Tester_Include.hpp"
 
 // Mettre ici les headers de vos containers
