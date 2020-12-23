@@ -1,5 +1,5 @@
-#ifndef LIST_HPP
-# define LIST_HPP
+#ifndef HANDLER_LIST_HPP
+# define HANDLER_LIST_HPP
 
 #include <map>
 # include "../Tester.hpp"

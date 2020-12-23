@@ -1,5 +1,5 @@
-#ifndef MAP_HPP
-# define MAP_HPP
+#ifndef HANDLER_MAP_HPP
+# define HANDLER_MAP_HPP
 
 #include "../Tester.hpp"
 #include "../unit_tests/map_tests.hpp"
