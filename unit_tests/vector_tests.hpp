@@ -139,6 +139,15 @@ void constructors_vector_tests() {
 	Vector vector2(vector1.begin(), vector1.end());
 	assert(vector2.size() == 10);
 	assert(vector2.capacity() == 10);
+
+	Vector vector3(vector2);
+	assert(vector3.size() == 10);
+	assert(vector3.capacity() == 10);
+	assert(*vector3.begin() == 42);
+	typedef typename Vector::iterator iterator;
+	iterator end = vector3.end();
+	end--;
+	assert(*end == 42);
 }
 
 template <class Vector>
