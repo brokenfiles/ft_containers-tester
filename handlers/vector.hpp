@@ -1,5 +1,5 @@
-#ifndef VECTOR_HPP
-# define VECTOR_HPP
+#ifndef HANDLER_VECTOR_HPP
+# define HANDLER_VECTOR_HPP
 
 #include <map>
 # include "../Tester.hpp"
