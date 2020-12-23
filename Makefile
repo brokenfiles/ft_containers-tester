@@ -23,7 +23,7 @@ run:		${NAME}
 			@echo "\033[0;34mRunning ${NAME}...\033[0;0m"
 			@./${NAME}
 
-test:		${NAME}
+test:		re
 			@echo "\033[0;34mRunning ${NAME}...\033[0;0m"
 			@./${NAME}
 

@@ -216,4 +216,16 @@ void element_access_vector_tests() {
 	assert(*(vector.begin()) == 42);
 }
 
+template <class Vector>
+void const_iterators_vector_tests() {
+	typedef typename Vector::iterator iterator;
+	typedef typename Vector::const_iterator const_iterator;
+	Vector vector;
+	vector.push_back(42);
+	iterator begin = vector.begin();
+	const_iterator cbegin = vector.begin();
+	assert(isConst(*begin) == false);
+	assert(isConst(*cbegin) == true);
+}
+
 #endif
