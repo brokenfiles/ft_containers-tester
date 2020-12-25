@@ -254,6 +254,13 @@ void erase_vector_tests() {
 }
 
 template <class Vector>
+void max_size_vector_tests() {
+	Vector vector;
+
+	assert(vector.max_size() > sizeof(size_t));
+}
+
+template <class Vector>
 void swap_vector_tests() {
 	Vector vec(5, 42);
 	Vector vec1(8, 21);
